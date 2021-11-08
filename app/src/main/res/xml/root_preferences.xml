@@ -1,0 +1,154 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="100dp">
+    <PreferenceCategory app:title="@string/general"
+        android:icon="@drawable/ic_settings_black_24dp" >
+
+        <SwitchPreferenceCompat
+            android:defaultValue="@bool/toolbar_display_default"
+            android:key="toolbar_display_key"
+            android:summary="@string/toolbar_display_summary"
+            android:title="@string/toolbar_display_title"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="@bool/bottommenu_display_default"
+            android:key="bottommenu_display_key"
+            android:summary="@string/bottommenu_display_summary"
+            android:title="@string/bottommenu_display_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/menber_entry"
+        android:icon="@drawable/ic_people_black_24dp"
+        >
+
+        <ListPreference
+            android:summary="例えば2と指定すると2列表示になります。"
+            android:title="@string/battle_colums_title"
+            app:defaultValue="@string/colum_entry_member_default"
+            app:entries="@array/coat_numbers"
+            app:entryValues="@array/coat_numbers"
+            app:key="colum_entry_member"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            android:key="reset_entrytimes"
+            android:summary="@string/reset_entrytime1"
+            android:title="@string/reset_entrytime2"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/title_match"
+        android:icon="@drawable/ic_battle"
+        android:key="battlesetting">
+
+        <ListPreference
+            android:title="@string/battle_colums_title"
+            app:defaultValue="@string/battle_colums_default"
+            app:entries="@array/coat_numbers"
+            app:entryValues="@array/coat_numbers"
+            app:key="battle_colums_key"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+
+            android:key="reset_battletime"
+            android:summary="@string/reset_battletime2"
+            android:title="@string/reset_battletime3"
+
+            />
+
+        <ListPreference
+            android:title="@string/battle_method"
+            app:defaultValue="@string/battle_method_default"
+            app:entries="@array/battle_method"
+            app:entryValues="@array/battle_method1"
+            app:key="battle_method"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="@bool/entryTimes_disregard"
+            android:key="entryTimes_disregard"
+            android:summary="@string/entryTimes_disregard_summury"
+            android:title="@string/entryTimes_disregard"
+            android:disableDependentsState="true"
+            />
+        <ListPreference
+            android:title="@string/battle_textsize"
+            app:defaultValue="@string/battle_textsize_default"
+            app:entries="@array/coat_people"
+            app:entryValues="@array/coat_people"
+            app:key="battle_textsize"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:isPreferenceVisible="false"
+            android:defaultValue="@bool/notenough_entry_hidden"
+            android:key="notenough_entry_hidden"
+            android:summary="@string/notenough_entry_hidden2"
+            android:title="@string/notenough_entry_hidden1"
+            android:disableDependentsState="true"
+            android:enabled="false"/>
+
+        <ListPreference
+            android:defaultValue="@string/coat_numbers_defaultValue"
+            app:entries="@array/coat_people"
+            app:entryValues="@array/coat_people"
+            app:key="coat_numbers_key"
+            app:title="@string/coat_numbers_title"
+            app:useSimpleSummaryProvider="true" />
+
+
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/about_app1"
+        android:icon="@drawable/ic_zisyo">
+
+        <Preference
+            android:key="about_app_donate"
+            android:summary="@string/about_app_donate_summury"
+            android:title="@string/about_app_donate"
+            >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://amzn.to/2En5pf1" />
+        </Preference>
+        <Preference
+            android:key="about_app_usage"
+            android:summary="@string/about_app_usage_summury"
+            android:title="@string/about_app_usage">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://penpen-dev.com/pair/" />
+            </Preference>
+
+
+        <Preference
+            android:key="privacy_policy"
+            android:summary="@string/privacypolicy2"
+            android:title="@string/privacypolicy1">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://penpen-dev.com/privacypolicy/" />
+        </Preference>
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

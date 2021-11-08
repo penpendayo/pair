@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--============================================================================================================
+試合一覧の四角
+============================================================================================================-->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="15dp" android:insetRight="15dp">
+<shape>
+    <corners android:radius="8dp" />
+    <stroke
+        android:width="3dp"
+        android:color="#000000" /><!--枠線-->
+</shape>
+</inset>

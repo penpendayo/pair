@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="tv_720p" />
+        <device id="pixel_c" />
+        <device id="pixel_3_xl" />
+        <device id="pixel_3" />
+        <device id="Nexus 5X" />
+        <device id="pixel_2" />
+        <device id="Nexus 7" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="areko" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="680d5a37-1b27-4edc-8fd7-4150dc27d971" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="XWB6R17227005916" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MemberManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1734">
+              <caret line="140" column="42" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/battle_list.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/asdfg.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/Battle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/GetApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_entry_member.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_items.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Interface" />
+        <option value="valueResourceFile" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Singleton" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Arraylist</find>
+      <find>---</find>
+      <find>MyFrameLayout123</find>
+      <find>?</find>
+      <find>sp.getString</find>
+      <find>battle_method_default</find>
+      <find>set</find>
+      <find>onPrepare</find>
+      <find>getResources().getString</find>
+      <find>battle_method</find>
+      <find>notenough_entry_hidden</find>
+      <find>onItemClick</find>
+      <find>linearLayout_break</find>
+      <find>getString</find>
+      <find>linearLayout_battle</find>
+      <find>notifyItemChanged</find>
+      <find>R.color.entrycolor</find>
+      <find>drawable</find>
+      <find>entrycolor</find>
+      <find>actionbar_people</find>
+      <find>textView_battle_titlebar_subtitle</find>
+      <find>plurals</find>
+      <find>ic_testtesttest.xml</find>
+      <find>battle_textsize</find>
+      <find>pers</find>
+      <find>なまえ</find>
+      <find>getRe</find>
+      <find>バトル</find>
+      <find>coat_numbers</find>
+      <find>getStr</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>@style/Widget.MaterialComponents.Chip.Choice</replace>
+      <replace>style=&quot;@style/Widget.MaterialComponents.Chip.Choice&quot;</replace>
+      <replace>textAppearanceSmall</replace>
+    </replaceStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="F:\pair.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/titlebar_member.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/CheackDialogFlagment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-small/aaaa.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_hand.xml" />
+        <option value="$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/huawei-was_lx2j-P3PDU17B14000523/data/data/com.penpendev.pair/shared_prefs/com.penpendev.pair_preferences.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_entry_member.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/BattleDialogFlagment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/titlebar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/gender.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/Gender.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/ParamReadableListPreference.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_member_add.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/SectionedGridRecyclerViewAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/border1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_battle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/border2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/section.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/entry_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_zisyo.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/aaa.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MyRatingPreference.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MyDialogPreference.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/QualityPreference.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/DynamicPreference.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/entrytime_reset.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/SettingsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/battle_break.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/battle_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/border.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/SimpleAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/titlebar_battle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_right.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_left.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/Battle.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/EntryMember.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_member_management.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/BattleAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MemberAdd.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_items.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/GetApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/root_preferences.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MemberManagement.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="529" />
+    <option name="y" value="390" />
+    <option name="width" value="1374" />
+    <option name="height" value="884" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages AndroidView="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pair" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="pair" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="pair" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="pair" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pair" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="pair" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="pair" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="emulator-5554" />
+    <property name="DEBUGGABLE_PROCESS" value="com.penpendev.pair" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="STP0219823002839" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-12-23T01:41:08.128Z" />
+    <property name="ExportApk.ApkPath" value="F:\Box Sync\Programming\pair\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.recentlyUsedThemes" value="Base.Theme.AppCompat.Light.Dialog.Alert&#10;Base.Theme.MaterialComponents.Light.Dialog" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="Pixel_3_API_24" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="F:/pair.jks" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Box Sync\Programming\pair\app\src\main\res\drawable" />
+      <recent name="F:\Box Sync\Programming\pair\app\src\main\res\layout" />
+      <recent name="C:\Users\yamaa\AndroidStudioProjects\pair\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.penpendev.pair" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Box Sync\Programming\pair\app\src\main\res\drawable" />
+      <recent name="F:\Box Sync\Programming\pair\app\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="680d5a37-1b27-4edc-8fd7-4150dc27d971" name="Default Changelist" comment="" />
+      <created>1565956417453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565956417453</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="529" y="390" width="1374" height="884" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" sideWeight="0.5033557" side_tool="true" weight="0.18395415" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49518305" visible="true" weight="0.27473363" />
+      <window_info id="Structure" order="2" sideWeight="0.5033557" side_tool="true" weight="0.18395415" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" sideWeight="0.50481695" side_tool="true" visible="true" weight="0.27473363" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" weight="0.3295129" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="0" weight="0.32963988" />
+      <window_info anchor="bottom" id="Analyze Dataflow from" order="1" weight="0.32963988" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49971348" weight="0.28162512" />
+      <window_info anchor="bottom" id="Logcat" order="3" weight="0.34533703" />
+      <window_info anchor="bottom" id="TODO" order="4" weight="0.32779318" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3508772" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32779318" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002865" side_tool="true" weight="0.28162512" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.30892143" />
+      <window_info anchor="bottom" id="Android Profiler" order="10" show_stripe_button="false" weight="0.29270545" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.2650046" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32963988" />
+      <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.501355" side_tool="true" visible="true" weight="0.27321157" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.339255" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Hierarchy" order="6" sideWeight="0.49864498" weight="0.29971346" />
+      <window_info anchor="right" id="StringPreview" order="7" />
+      <window_info active="true" anchor="right" id="Assistant" order="8" visible="true" weight="0.34513804" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/ViewPagerAdapter.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/SectionedGridRecyclerViewAdapter.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MemberManagement.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/Battle.java</url>
+          <line>388</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MainActivity.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="editText.toString()" language="JAVA" />
+        <watch expression="memberList.get(i).name.substring(0,1)" language="JAVA" />
+        <watch expression="savedInstanceState.getParcelableArrayList(&quot;member&quot;)" language="JAVA" />
+        <watch expression="memberList" language="JAVA" />
+        <watch expression="memberList" language="JAVA" />
+        <watch expression="battleMember" language="JAVA" />
+        <watch expression="battleMember.get(position).length" language="JAVA" />
+        <watch expression="battleMember.get(position).length)" language="JAVA" />
+        <watch expression="battleMember.get(position).length" language="JAVA" />
+        <watch expression="b.getText()" language="JAVA" />
+        <watch expression="member" language="JAVA" />
+        <watch expression="member.length" language="JAVA" />
+        <watch expression="member[9]" language="JAVA" />
+        <watch expression="member" language="JAVA" />
+        <watch expression="battleMember" language="JAVA" />
+        <watch expression="member" language="JAVA" />
+        <watch expression="member[0]" language="JAVA" />
+        <watch expression="battleMember" language="JAVA" />
+        <watch expression="holder.member" language="JAVA" />
+        <watch expression="super.dispatchTouchEvent(ev)" language="JAVA" />
+        <watch expression="MemberManagementFragment.memberList" language="JAVA" />
+        <watch expression="memberList" language="JAVA" />
+        <watch expression="entryList" language="JAVA" />
+        <watch expression="listener" language="JAVA" />
+        <watch expression="popup.getMenu()" language="JAVA" />
+        <watch expression="battleMember" language="JAVA" />
+        <watch expression="EntryMemberFragment.entryList" language="JAVA" />
+        <watch expression="memberCount.get(i)" language="JAVA" />
+        <watch expression="pairEnterCoat" language="JAVA" />
+        <watch expression="memberCount.get(i)" language="JAVA" />
+        <watch expression="pairEnterCoat" language="JAVA" />
+        <watch expression="ireta" language="JAVA" />
+        <watch expression="entryList.get(i).id" language="JAVA" />
+        <watch expression="pairEnterCoat.size()" language="JAVA" />
+        <watch expression="pairEnterCoat" language="JAVA" />
+        <watch expression="memberCount.get(i)/2" language="JAVA" />
+        <watch expression="entryList" language="JAVA" />
+        <watch expression="entryList" language="JAVA" />
+        <watch expression="deleteList" language="JAVA" />
+        <watch expression="deleteList.get(i)" language="JAVA" />
+        <watch expression="entryList" language="JAVA" />
+        <watch expression="entryList" language="JAVA" />
+        <watch expression="entryList" language="JAVA" />
+        <watch expression="pairEnterCoat" language="JAVA" />
+        <watch expression="pairEnterCoat.keyAt(j)" language="JAVA" />
+        <watch expression="entryList.get(k).id" language="JAVA" />
+        <watch expression="entryList.get(i).pair.valueAt(0)" language="JAVA" />
+        <watch expression="entryList.get(k).id " language="JAVA" />
+        <watch expression="entryList.get(i).pair.valueAt(0)" language="JAVA" />
+        <watch expression="entryList.get(k).id" language="JAVA" />
+        <watch expression="entryList.get(i).pair.valueAt(0)" language="JAVA" />
+        <watch expression="pairEnterCoat.keyAt(j)+2" language="JAVA" />
+        <watch expression="ireta" language="JAVA" />
+        <watch expression="entryList.get(i).id" language="JAVA" />
+        <watch expression="pairEnterCoat" language="JAVA" />
+        <watch expression="entryList" language="JAVA" />
+        <watch expression="pairEnterCoat.size()" language="JAVA" />
+        <watch expression="entryList.get(i).pair.valueAt(0)" language="JAVA" />
+        <watch expression="entryList.get(i).pair.valueAt(0)" language="JAVA" />
+        <watch expression="entryList.get(i).pair.valueAt(0)" language="JAVA" />
+        <watch expression="asd" />
+        <watch expression="MemberManagement.MemberList.pair" language="JAVA" />
+        <watch expression="MemberManagement.MemberList.pair.get(0)[0]" />
+        <watch expression="Integer.parseInt(sp.getString(&quot;coat_numbers&quot;, &quot;1&quot;)) " language="JAVA" />
+        <watch expression="getPreferenceScreen().findPreference(&quot;coat&quot;+i)" language="JAVA" />
+        <watch expression="getPreferenceScreen().findPreference(&quot;coat&quot;+1)" language="JAVA" />
+        <watch expression="getPreferenceScreen().findPreference(&quot;coat&quot;+10)" language="JAVA" />
+        <watch expression="battleMember" language="JAVA" />
+        <watch expression="battleMember" language="JAVA" />
+        <watch expression="entryList.get(i).id" language="JAVA" />
+        <watch expression="m" language="JAVA" />
+        <watch expression="entryList" language="JAVA" />
+        <watch expression="leftPower" language="JAVA" />
+        <watch expression="rightPower" language="JAVA" />
+        <watch expression="battleMember" language="JAVA" />
+        <watch expression="lp.getKey()" language="JAVA" />
+        <watch expression="holder.member[i]" language="JAVA" />
+        <watch expression="view" language="JAVA" />
+        <watch expression="view.findViewById(R.id.button_next)" language="JAVA" />
+        <watch expression="(mSections.get(position).title" language="JAVA" />
+        <watch expression="breakList" language="JAVA" />
+        <watch expression="getResources().getQuantityString(R.plurals.test,j,j)" language="JAVA" />
+        <watch expression="battleTime.size() " language="JAVA" />
+        <watch expression="battleTime.size()" language="JAVA" />
+        <watch expression="battleTime.get(currentbattle-1).get(coatNumber_1st)[coatPosition_1st].entryTimes--" language="JAVA" />
+        <watch expression="breakTime.get(currentbattle-1).get(coatPosition_2st).entryTimes" language="JAVA" />
+        <watch expression="battleTime.get(currentbattle-1).get(coatNumber_1st)[coatPosition_1st]" language="JAVA" />
+        <watch expression="breakTime.get(currentbattle-1).get(coatPosition_2st)" language="JAVA" />
+        <watch expression="preference.getValue()" language="JAVA" />
+        <watch expression="preference.getEntry()" language="JAVA" />
+        <watch expression="preference.getTitle()" language="JAVA" />
+        <watch expression="preference.getEntryValues()" language="JAVA" />
+        <watch expression="preference.getEntries()" language="JAVA" />
+        <watch expression="preference.getValue()" language="JAVA" />
+        <watch expression="getResources().getString(R.string.battle_method2)" language="JAVA" />
+        <watch expression="getResources().getString(R.string.battle_method1).substring(0,text.indexOf(&quot;\n&quot;))" language="JAVA" />
+        <watch expression="text.indexOf(&quot;\n&quot;)" language="JAVA" />
+        <watch expression="getResources().getString(R.string.battle_method1)" language="JAVA" />
+        <watch expression="getResources().getString(R.string.battle_method1).substring(0,text.indexOf(&quot;\n&quot;))" language="JAVA" />
+        <watch expression="getString(R.string.battle_method1)" language="JAVA" />
+        <watch expression="sp.getString(&quot;battle_method&quot;,getString(R.string.battle_colums_default))" language="JAVA" />
+        <watch expression="MemberManagement.MemberList.pair" language="JAVA" custom="com.penpendev.pair.MemberManagement" />
+        <watch expression="sp.getString(&quot;battle_method&quot;,getString(R.string.battle_colums_default))" language="JAVA" />
+        <watch expression="battleMember.get(battleMemberCount.get(i))[f]" language="JAVA" />
+        <watch expression="memberidToGetMember(a[haireru], entryList)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>memberidToGetMember(a[haireru], entryList)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>battleMember.get(battleMemberCount.get(i))[f]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sp.getString(&quot;battle_method&quot;,getString(R.string.battle_colums_default))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>MemberManagement.MemberList.pair</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.penpendev.pair.MemberManagement</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getString(R.string.battle_method1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getResources().getString(R.string.battle_method1).substring(0,text.indexOf(&quot;\n&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getResources().getString(R.string.battle_method1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>text.indexOf(&quot;\n&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getResources().getString(R.string.battle_method2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>preference.getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="arrayFilter">
+      <expression>
+        <expression-string>あ</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>name</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>asd</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/border1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/border2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/dialogfragment_bg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/border.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/round_corner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/plus.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_zisyo.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_testtesttest_round.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_testtesttest_round.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_testtesttest_round.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_testtesttest.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_testtesttest_foreground.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_testtesttest_round.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_testtesttest.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_testtesttest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_battle.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_member_management.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_member_add.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/titlebar_battle.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/titlebar.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/section.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/titlebar_member.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-rc01/f4abe26c807908d872bf9091dc330b17d71cd6f1/fragment-1.1.0-rc01-sources.jar!/androidx/fragment/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="1817" column="16" selection-start-line="1817" selection-start-column="16" selection-end-line="1817" selection-end-column="16" />
+          <folding>
+            <element signature="e#31136#31137#0" expanded="true" />
+            <element signature="e#31190#31191#0" expanded="true" />
+            <element signature="e#31745#31746#0" expanded="true" />
+            <element signature="e#31799#31800#0" expanded="true" />
+            <element signature="e#72301#72302#0" expanded="true" />
+            <element signature="e#72331#72332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MemberAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+          <folding>
+            <element signature="e#1695#1714#0" expanded="true" />
+            <element signature="e#1761#1780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/root_preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#5115#5116#0" expanded="true" />
+            <element signature="e#5146#5147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/MemberManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="140" column="42" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/GetApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_entry_member.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_items.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/battle_list.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/asdfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/penpendev/pair/Battle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

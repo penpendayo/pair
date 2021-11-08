@@ -1,0 +1,152 @@
+<resources>
+    <!--============================================================================================================
+    全般
+    ============================================================================================================-->
+    <string name="app_name">ペア決め君</string>
+    <string name="general">全般</string>
+    <string name="title_member">メンバー</string>
+    <string name="title_participant">参加者</string>
+    <string name="title_match">試合</string>
+    <string name="title_setting">設定</string>
+    <string name="cancel">キャンセル</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+
+    <!--============================================================================================================
+　　メンバー追加
+    ============================================================================================================-->
+    <string name="memberadd_name">名前：</string>
+    <string name="memberadd_freeSpace">フリースペース：</string>
+    <string name="memberadd_gender">性別：</string>
+    <string name="memberadd_level">レベル：</string>
+    <string name="memberadd_beginner">入門</string>
+    <string name="memberadd_elementary">初級</string>
+    <string name="memberadd_intermediate">中級</string>
+    <string name="memberadd_advanced">上級</string>
+    <string name="memberadd_pro">プロ</string>
+    <string name="memberadd_register">登録する</string>
+    <string name="memberadd_update">更新する</string>
+    <string name="memberadd_man">男</string>
+    <string name="memberadd_woman">女</string>
+    <string name="memberadd_other">その他</string>
+    <string name="memberadd_hint_name">なまえを入力</string>
+    <string name="memberadd1">メンバーの追加</string>
+    <string name="memberadd2">メンバーの更新</string>
+
+    <string name="memberadd_miss">以下の項目が入力されていません</string>
+    <!--============================================================================================================
+　　メンバー
+    ============================================================================================================-->
+    <string name="entry_pair_registration">ペアを登録</string>
+    <string name="entry1">メンバー数</string>
+    <string name="symbol">記号</string>
+    <string name="entrynow">参加中</string>
+    <string name="member_intro1">タップすると参加･非参加を切り替えできます</string>
+    <string name="member_intro2">ロングタップするとメンバー情報の編集ができます</string>
+
+
+    <plurals name="sectionbar_people">
+        <item quantity="other">%d人</item>
+    </plurals>
+    <!--============================================================================================================
+　　参加者
+    ============================================================================================================-->
+    <string name="member1">参加者数</string>
+    <string name="message1">違う人を選択してください</string>
+    <string name="message2">ペアにしたい人を選んでください(複数人選択可)</string>
+
+    <string name="pair_entry">ペアを設定する</string>
+    <string name="pair_entry_cancel">ペアを解除する</string>
+    <string name="entry_decrement">参加回数を1回減らす</string>
+    <string name="entry_increment">参加回数を1回増やす</string>
+    <string name="entry_definitely">絶対参加にする</string>
+    <string name="entry_definitely_cancel">絶対参加を解除する</string>
+    <string name="entry_break">休憩にする</string>
+    <string name="entry_break_cancel">休憩を解除する</string>
+
+    <!--============================================================================================================
+　　メンバー、参加者
+    ============================================================================================================-->
+    <string name="menber_entry">メンバー、参加者</string>
+    <!--============================================================================================================
+　　試合
+    ============================================================================================================-->
+    <string name="battle_shuffle">シャッフル</string>
+    <string name="battle_start">確定</string>
+    <string name="notenouth_entrymember">参加者が足りません。</string>
+    <string name="replace_member">入れ替えたい人をタップしてください</string>
+    <string name="coffeebreak">休憩</string>
+    <string name="battle_titlebar">%d/%d 試合目</string>
+    <string name="coat">コート</string>
+
+    <!--============================================================================================================
+　　参加者・試合
+    ============================================================================================================-->
+    <plurals name="actionbar_people">
+        <item quantity="other">(%d人)</item>
+    </plurals>
+    <!--============================================================================================================
+　　設定
+   ============================================================================================================-->
+
+    <string name="toolbar_display_summary">ピンチアウトでツールバーの表示を切り替えられるようにする設定です。\n（2つの指をタップして間隔を広げることをピンチアウトといいます。）</string>
+    <string name="toolbar_display_title">ツールバーを非表示にする</string>
+    <bool name="toolbar_display_default">false</bool>
+
+
+    <string name="bottommenu_display_summary">ピンチインで下メニューの表示を切り替えられるようにする設定です。\n（2つの指をタップして間隔を狭めることをピンチインといいます。）</string>
+    <string name="bottommenu_display_title">下メニューを非表示にする</string>
+    <bool name="bottommenu_display_default">false</bool>
+
+    <string name="coat_numbers_title">コート数</string>
+    <string name="coat_numbers_defaultValue">4</string>
+
+    <string name="battle_colums_title">列数</string>
+    <string name="battle_colums_default">1</string>
+
+    <string name="colum_entry_member_default">2</string>
+
+    <bool name="entryTimes_disregard">false</bool>
+    <bool name="notenough_entry_hidden">false</bool>
+
+    <string name="reset_entrytime">参加回数をリセットしますか？</string>
+    <string name="reset_entrytime1">メンバー全員の参加回数を0にリセットします。</string>
+    <string name="reset_entrytime2">参加回数をリセットする</string>
+
+    <string name="reset_battletime">試合履歴をリセットしますか？</string>
+
+    <string name="reset_battletime2">試合履歴をリセットします。（参加回数はリセットされません）</string>
+    <string name="reset_battletime3">試合履歴をリセットする</string>
+
+    <string name="battle_textsize">文字サイズ(px)</string>
+    <string name="battle_textsize_default">15</string>
+
+    <string name="battle_method">試合方式</string>
+
+    <string name="entryTimes_disregard">参加回数を無視する</string>
+    <string name="entryTimes_disregard_summury">参加回数を考慮せずに試合を組む設定です。</string>
+
+    <string name="notenough_entry_hidden1">埋まらないコートにも入れる</string>
+    <string name="notenough_entry_hidden2">参加者が足りなくて全員埋まらないコートにも人を入れるようにする設定です。</string>
+
+    <string name="battle_method1"><b>レベルを均等にする</b>\n<small>コートの自チームと相手チームのレベルをなるべく均等にする設定です。</small>\n</string>
+    <string name="battle_method2"><b>レベル毎にする</b>\n<small>コートに入る全員のレベルを同じにする設定です。</small>\n</string>
+    <string name="battle_method3"><b>完全ランダムにする</b>\n<small>レベルを考慮しない設定です。</small></string>
+    <string name="battle_method_default">1</string>
+
+
+    <string name="about_app1">このアプリについて</string>
+    <string name="about_app_donate">作者に寄付をする</string>
+
+    <string name="about_app_donate_summury">Amazonのほしいものリストが開きます。</string>
+    <string name="about_app_usage">アプリのホームページを開く</string>
+    <string name="about_app_usage_summury">このアプリのホームページを開きます。</string>
+
+
+    <string name="privacypolicy1">プライバシーポリシーを開く</string>
+    <string name="privacypolicy2">このアプリのプライバシーポリシーについてのページを開きます。</string>
+    <!-- コードで追加するコート内の人数 -->
+    <string name="coat_people_defaultValue">4</string>
+
+
+</resources>

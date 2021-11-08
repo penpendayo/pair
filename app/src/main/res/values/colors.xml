@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--============================================================================================================
+　　レベル別の色
+    ============================================================================================================-->
+    <color name="beginner">#0066ff</color><!--入門-->
+    <color name="elementary">#448b22</color>
+    <color name="intermediate">#e18d00</color>
+    <color name="advanced">#ff4500</color>
+    <color name="pro">#333333</color><!--プロ-->
+
+    <color name="entrycolor">#ffffbb</color><!--参加の色-->
+    <color name="breakTextColor">#F44336</color><!--休憩、絶対参加テキストの色-->
+    <color name="pairTextColor">#009688</color><!--ペアテキストの色-->
+
+
+</resources>

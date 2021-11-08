@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.penpendev.pair.MyFrameLayout123 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntryMember">
+
+
+    <Button
+        android:id="@+id/button_battle_cancel"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_battle_shuffle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_battle_shuffle"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/battle_shuffle"
+        app:layout_constraintBottom_toBottomOf="@+id/button_battle_cancel"
+        app:layout_constraintEnd_toStartOf="@+id/button_battle_start"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_battle_cancel" />
+
+    <Button
+        android:id="@+id/button_battle_start"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/battle_start"
+        app:layout_constraintBottom_toBottomOf="@+id/button_battle_cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_battle_shuffle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/battle_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_battle_cancel"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/battle_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="false"
+        app:backgroundTint="?android:attr/colorAccent"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toTopOf="@+id/button_battle_start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/plus1"
+        tools:layout_conversion_absoluteHeight="56dp"
+        tools:layout_conversion_absoluteWidth="56dp"
+        tools:layout_conversion_wrapHeight="147"
+        tools:layout_conversion_wrapWidth="147" />
+
+
+</com.penpendev.pair.MyFrameLayout123>
+

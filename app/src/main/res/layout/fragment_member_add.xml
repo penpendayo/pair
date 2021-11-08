@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:context=".MemberAdd"
+        tools:layout_editor_absoluteY="81dp">
+
+
+        <!--デフォで最初にフォーカスをあてない-->
+
+        <Button
+            android:id="@+id/button_cancel_entry"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_delete"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <Button
+            android:id="@+id/button_entry_add"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="@string/memberadd_register"
+
+            app:layout_constraintBottom_toBottomOf="@+id/button_cancel_entry"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button_delete" />
+
+        <Button
+            android:id="@+id/button_delete"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#C80000"
+            android:text="削除する"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/button_cancel_entry"
+            app:layout_constraintEnd_toStartOf="@+id/button_entry_add"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button_cancel_entry" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/round_corner"
+            android:ems="10"
+            android:hint="@string/memberadd_hint_name"
+            android:inputType="textPersonName"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline">
+
+            <requestFocus />
+        </EditText>
+
+        <RadioGroup
+            android:id="@+id/radioGroup_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/divider3">
+
+            <RadioButton
+                android:id="@+id/radioButton_MAN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memberadd_man"
+                tools:layout_editor_absoluteY="128dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_WOMAN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memberadd_woman"
+                tools:layout_editor_absoluteY="32dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_OTHER"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memberadd_other"
+                tools:layout_editor_absoluteY="32dp" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/divider2">
+
+            <RadioButton
+                android:id="@+id/radioButton_beginner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memberadd_beginner"
+                tools:layout_editor_absoluteY="128dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_elementary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memberadd_elementary"
+                tools:layout_editor_absoluteY="32dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_intermediate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memberadd_intermediate"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_advanced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/memberadd_advanced"
+                tools:layout_editor_absoluteY="96dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/memberadd_pro"
+                tools:layout_editor_absoluteY="96dp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/memberadd_name"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/memberadd_gender"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/radioGroup_gender"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/radioGroup_gender" />
+
+        <TextView
+            android:id="@+id/textView_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/memberadd_level"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/radioGroup_level"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/radioGroup_level" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup_gender" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup_level" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            app:layout_constraintGuide_percent="0.4"
+            tools:visibility="visible" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
